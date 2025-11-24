@@ -105,6 +105,3 @@ If you want, I can also:
 - add step-by-step hands-on labs to this file (S3 website, EC2 webserver, Lambda trigger),
 - create a small sample repo with scripts and `cloud-README` examples, or
 - commit this change and push it to the repository.
-
-Tell me which next step you'd prefer.
-

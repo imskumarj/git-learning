@@ -367,5 +367,3 @@ If you'd like, I can:
 - commit this `README.md` for you and suggest a commit message, or
 - generate a small sample repo with example branches and files to practice commands, or
 - produce a printable one-page cheatsheet PDF.
-
-What would you like me to do next?
