@@ -2,7 +2,7 @@
 
 This README is an immersive guide to Git and GitHub for developers of all levels. It includes essential concepts, step-by-step examples, common workflows, a comprehensive command cheatsheet, and advanced topics — all with copy-paste-ready commands for PowerShell on Windows.
 
-Use this guide as a reference while learning or working with Git and GitHub.
+Use this guide as a reference while learning or working with Git and GitHub!
 
 **How to use this file**
 - **Beginner:** Start at **Getting Started** and **Basics**.
