@@ -1,5 +1,5 @@
 
-# AWS (Beginner Guide)
+# AWS (Beginner to Advance Guide)
 
 This document provides a concise, beginner-friendly introduction to Amazon Web Services (AWS). It covers core concepts, account and CLI setup, common services and example commands you can run from PowerShell on Windows, plus basic security and cost-management tips.
 
