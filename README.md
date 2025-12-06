@@ -105,11 +105,3 @@ If you're learning Cloud, Linux, or Git — this repo will guide you!
 ## ⭐ Inspiration
 
 > “Consistency is what transforms average into excellence.”
-
----
-
-If you want, I can also create:
-✅ A badge section  
-✅ A banner/logo  
-✅ A GitHub Pages landing page  
-Just tell me!
