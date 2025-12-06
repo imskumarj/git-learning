@@ -33,6 +33,7 @@ GIT-LEARNING/
 │
 ├── Week 2/
 │ └── Day 1 - Intro to AWS Cloud.md
+│ └── Day 2 - EC2 Instance.md
 │
 └── README.md
 
@@ -70,6 +71,7 @@ _Starting the AWS cloud journey_
 | Day | Topic | Link |
 |-----|--------|-------|
 | 🌩️ Day 1 | Introduction to AWS Cloud | [Open File](Week%202/Day%201%20-%20Intro%20to%20AWS%20Cloud.md) |
+| 🌩️ Day 2 | EC2 Instances | [Open File](Week%202/Day%202%20-%20EC2%20Instance.md) |
 
 ---
 
