@@ -18,7 +18,8 @@ Each topic is documented in clean, beginner-friendly Markdown files, organized w
 
 ## 📂 Repository Structure
 
-```GIT-LEARNING/
+```
+GIT-LEARNING/
 │
 ├── Cheatsheets/
 │ ├── Git.md
