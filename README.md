@@ -18,7 +18,7 @@ Each topic is documented in clean, beginner-friendly Markdown files, organized w
 
 ## 📂 Repository Structure
 
-GIT-LEARNING/
+```GIT-LEARNING/
 │
 ├── Cheatsheets/
 │ ├── Git.md
@@ -32,10 +32,11 @@ GIT-LEARNING/
 │ └── Day 5 - systemctl.md
 │
 ├── Week 2/
-│ └── Day 1 - Intro to AWS Cloud.md
+│ ├── Day 1 - Intro to AWS Cloud.md
 │ └── Day 2 - EC2 Instance.md
 │
 └── README.md
+```
 
 ---
 
