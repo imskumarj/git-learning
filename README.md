@@ -37,9 +37,6 @@ GIT-LEARNING/
 │
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Quick Navigation
