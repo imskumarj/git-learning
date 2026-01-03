@@ -1,11 +1,4 @@
-Below are **detailed, clean, visually appealing Markdown (MD) notes** for **Week 2 – Day 4: Networking (AWS)**, rewritten from your handwritten notes, **with diagrams, emojis, and strong revision flow**.
-(Storage parts from the last image are intentionally ignored.)
-
-You can **directly paste this into a `.md` file or README**.
-
----
-
-```md
+```
 # 🌐 Week 2 – Day 4: AWS Networking Fundamentals
 
 > _“Networking is the nervous system of the cloud.”_
