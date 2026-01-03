@@ -34,7 +34,13 @@ GIT-LEARNING/
 │
 ├── Week 2/
 │ ├── Day 1 - Intro to AWS Cloud.md
-│ └── Day 2 - EC2 Instance.md
+│ ├── Day 2 - EC2 Instance.md
+│ ├── Day 3 - Global Infrastructure.md
+│ ├── Day 4 - Networking.md
+│ └── Day 5 - Storage.md
+│
+├── Week 3/
+│ └── Day 1 - Databases.md
 │
 └── README.md
 ```
@@ -44,33 +50,49 @@ GIT-LEARNING/
 ## 🚀 Quick Navigation
 
 ### 🔰 **Cheatsheets**
-> Your quick reference hub for fast revisions  
 
-- 📘 [Git Cheatsheet](Cheatsheets/Git.md)  
-- 🐧 [Linux Cheatsheet](Cheatsheets/Linux.md)  
+> Your quick reference hub for fast revisions
+
+* 📘 [Git Cheatsheet](Cheatsheets/Git.md)
+* 🐧 [Linux Cheatsheet](Cheatsheets/Linux.md)
 
 ---
 
 ### 📅 **Week 1 — Foundations**
-_The essentials: Linux mastery + Git fundamentals_
 
-| Day | Topic | Link |
-|-----|--------|-------|
-| ⭐ Day 1 | Linux Basics | [Open File](Week%201/Day%201%20-%20Linux.md) |
-| 🔐 Day 2 | Permissions & SSH | [Open File](Week%201/Day%202%20-%20Linux.md) |
-| 🌿 Day 3 | Git Basics | [Open File](Week%201/Day%203%20-%20Git%20Basics.md) |
+*The essentials: Linux mastery + Git fundamentals*
+
+| Day      | Topic                     | Link                                                                  |
+| -------- | ------------------------- | --------------------------------------------------------------------- |
+| ⭐ Day 1  | Linux Basics              | [Open File](Week%201/Day%201%20-%20Linux.md)                          |
+| 🔐 Day 2 | Linux Permissions & SSH   | [Open File](Week%201/Day%202%20-%20Linux.md)                          |
+| 🌿 Day 3 | Git Basics                | [Open File](Week%201/Day%203%20-%20Git%20Basics.md)                   |
 | 🌳 Day 4 | Git Branching & Conflicts | [Open File](Week%201/Day%204%20-%20Git%20Branch%20and%20Conflicts.md) |
-| ⚙️ Day 5 | systemctl & Services | [Open File](Week%201/Day%205%20-%20systemctl.md) |
+| ⚙️ Day 5 | systemctl & Services      | [Open File](Week%201/Day%205%20-%20systemctl.md)                      |
 
 ---
 
-### ☁️ **Week 2 — Cloud Essentials**
-_Starting the AWS cloud journey_
+### ☁️ **Week 2 — AWS Cloud Essentials**
 
-| Day | Topic | Link |
-|-----|--------|-------|
-| 🌩️ Day 1 | Introduction to AWS Cloud | [Open File](Week%202/Day%201%20-%20Intro%20to%20AWS%20Cloud.md) |
-| 🌩️ Day 2 | EC2 Instances | [Open File](Week%202/Day%202%20-%20EC2%20Instance.md) |
+*Core AWS concepts with hands-on understanding*
+
+| Day       | Topic                                  | Link                                                            |
+| --------- | -------------------------------------- | --------------------------------------------------------------- |
+| 🌩️ Day 1 | Introduction to AWS Cloud              | [Open File](Week%202/Day%201%20-%20Intro%20to%20AWS%20Cloud.md) |
+| 🖥️ Day 2 | EC2 Instances                          | [Open File](Week%202/Day%202%20-%20EC2%20Instance.md)           |
+| 🌍 Day 3  | AWS Global Infrastructure              | [Open File](Week%202/Day%203%20-%20Global%20Infrastructure.md)  |
+| 🌐 Day 4  | AWS Networking (VPC, Subnets, Routing) | [Open File](Week%202/Day%204%20-%20Networking.md)               |
+| 📦 Day 5  | AWS Storage (EBS, S3, EFS)             | [Open File](Week%202/Day%205%20-%20Storage.md)                  |
+
+---
+
+### 🗄️ **Week 3 — Databases**
+
+*Data storage, performance & scalability*
+
+| Day      | Topic                                    | Link                                             |
+| -------- | ---------------------------------------- | ------------------------------------------------ |
+| 🧠 Day 1 | Databases (RDS, Aurora, DynamoDB, Cache) | [Open File](Week%203/Day%201%20-%20Databases.md) |
 
 ---
 
