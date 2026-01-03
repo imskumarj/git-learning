@@ -1,0 +1,232 @@
+Below are **detailed, clean, visually appealing Markdown (MD) notes** for **Week 2 – Day 4: Networking (AWS)**, rewritten from your handwritten notes, **with diagrams, emojis, and strong revision flow**.
+(Storage parts from the last image are intentionally ignored.)
+
+You can **directly paste this into a `.md` file or README**.
+
+---
+
+```md
+# 🌐 Week 2 – Day 4: AWS Networking Fundamentals
+
+> _“Networking is the nervous system of the cloud.”_
+
+---
+
+## 🧩 Amazon Virtual Private Cloud (VPC)
+
+### 🔹 What is a VPC?
+An **Amazon VPC** lets you provision a **logically isolated section** of the AWS Cloud where you can launch resources in a **virtual network you control**.
+
+Think of a VPC like your **own private office building inside AWS** 🏢.
+
+---
+
+### 🔹 Public vs Private Resources
+
+Inside a VPC, resources can be:
+
+- 🌍 **Public** → Has internet access  
+- 🔒 **Private** → No direct internet access  
+
+📌 Example (Coffee Shop Analogy ☕):
+
+- **Customer** → Internet user  
+- **Cashier** → Public resource (accessible from outside)  
+- **Barista** → Private resource (internal-only)
+
+```
+
+Customer ───► Cashier (Public VPC)
+│
+▼
+Barista (Private VPC)
+
+```
+
+---
+
+## 🧱 Subnets
+
+### 🔹 What are Subnets?
+Subnets are used to **organize resources inside a VPC**.
+
+- A subnet belongs to **one Availability Zone**
+- Can be **public or private**
+
+---
+
+### 🔹 Public Subnet
+- Has a route to the **Internet Gateway**
+- Used for:
+  - EC2 web servers
+  - Load balancers
+
+### 🔹 Private Subnet
+- No direct internet route
+- Used for:
+  - Databases
+  - Internal services
+
+---
+
+### 🔹 VPC + Subnet Architecture
+
+```
+
+Region
+└── VPC
+├── AZ-A
+│   ├── Public Subnet → EC2
+│   └── Private Subnet → DB
+└── AZ-B
+├── Public Subnet → EC2
+└── Private Subnet → DB
+
+```
+
+🌐 Internet → Internet Gateway → Public Subnet  
+🔒 Private Subnet stays isolated
+
+---
+
+## 🔐 VPN (Virtual Private Network)
+
+### 🔹 When do we use VPN?
+Use VPN when **secure connectivity is required**.
+
+### 🔹 Benefits of VPN
+- 🔐 Secure
+- 🔁 Flexible
+- 🌍 Remote access
+- 📉 Cheaper than dedicated lines (in some cases)
+
+---
+
+## 🔗 AWS Direct Connect
+
+### 🔹 What is Direct Connect?
+A **dedicated private connection** between your data center and AWS.
+
+📌 Used when:
+- High bandwidth is required
+- Low latency is critical
+- Large data transfers are frequent
+
+### 🔹 Advantages
+- 🚀 High performance
+- ⏱️ Low latency
+- 🔐 Secure & reliable
+- 📊 Consistent network performance
+
+---
+
+### 🔹 Ways to Connect to AWS Cloud
+
+1. AWS Client VPN  
+2. AWS Site-to-Site VPN  
+3. AWS Direct Connect  
+4. AWS Peering / Private Connectivity  
+
+---
+
+## 🌍 Global Networking & Content Delivery
+
+### 🔹 Amazon Route 53 (DNS)
+
+Route 53 is AWS’s **DNS service** 🌐.
+
+#### Routing Policies:
+- ⚡ Latency-based routing
+- 🌍 Geolocation routing
+- 🔁 Weighted routing
+- 🔄 Simple round-robin
+
+---
+
+### 🔹 Amazon CloudFront (CDN)
+
+CloudFront is AWS’s **Content Delivery Network**.
+
+- Delivers content from **edge locations**
+- Reduces latency
+- Improves performance globally
+
+```
+
+User → Route 53 → CloudFront (Edge)
+↓
+AWS Region
+
+```
+
+---
+
+## 🧠 Global Architectures Overview
+
+### 🔹 Edge Locations
+- Cache frequently accessed content
+- Serve users from the nearest location
+
+### 🔹 Global Accelerator
+- Improves availability & performance
+- Routes traffic to optimal endpoints
+
+---
+
+## 🧱 Network Security
+
+### 🔹 Network ACL (NACL)
+- Works at **subnet level**
+- Stateless
+- Controls inbound & outbound traffic
+
+### 🔹 Security Groups
+- Works at **instance level**
+- Stateful
+- Acts like a firewall for EC2
+
+📌 **Rule of Thumb**:
+> NACL = Subnet gatekeeper  
+> Security Group = Instance bodyguard 🛡️
+
+---
+
+## 🗺️ High-Level Networking Flow
+
+```
+
+Client
+↓
+Route 53 (DNS)
+↓
+CloudFront (Edge)
+↓
+Internet Gateway
+↓
+Public Subnet (EC2)
+↓
+Private Subnet (DB)
+
+```
+
+---
+
+## 🧪 Key Takeaways (Quick Revision)
+
+- VPC = isolated network in AWS  
+- Subnets divide VPC by AZ & access type  
+- Public ≠ Secure, Private ≠ Inaccessible  
+- VPN = secure tunnel  
+- Direct Connect = dedicated highway  
+- Route 53 = traffic director  
+- CloudFront = global delivery booster  
+
+---
+
+## ✅ Exam / Interview Ready Lines
+
+- “A VPC provides logical isolation in AWS.”
+- “Subnets are AZ-specific.”
+- “Security Groups are stateful, NACLs are stateless.”
+- “CloudFront reduces latency using edge caching.”
+- “Direct Connect ensures predictable performance.”
