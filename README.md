@@ -41,6 +41,10 @@ GIT-LEARNING/
 │
 ├── Week 3/
 │ └── Day 1 - Databases.md
+│ ├── Day 2 - AI ML and Data Analytics.md
+│ ├── Day 3 - Security.md
+│ ├── Day 4 - MCG, Pricing and Support.md
+│ └── Day 5 - Migration and Well-Architectures.md
 │
 └── README.md
 ```
@@ -86,13 +90,17 @@ GIT-LEARNING/
 
 ---
 
-### 🗄️ **Week 3 — Databases**
+### 🗄️ **Week 3 — Databases**s
 
 *Data storage, performance & scalability*
 
-| Day      | Topic                                    | Link                                             |
-| -------- | ---------------------------------------- | ------------------------------------------------ |
-| 🧠 Day 1 | Databases (RDS, Aurora, DynamoDB, Cache) | [Open File](Week%203/Day%201%20-%20Databases.md) |
+| Day      | Topic                                                   | Link                                                                        |
+| -------- | ------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 🧠 Day 1 | Databases (RDS, Aurora, DynamoDB, Cache)                | [Open File](Week%203/Day%201%20-%20Databases.md)                            |
+| 🤖 Day 2 | AI, ML & Data Analytics                                 | [Open File](Week%203/Day%202%20-%20AI%20ML%20and%20Data%20Analytics.md)     |
+| 🔐 Day 3 | AWS Security (IAM, Shield, WAF, Encryption, Monitoring) | [Open File](Week%203/Day%203%20-%20Security.md)                             |
+| 📊 Day 4 | Monitoring, Compliance, Governance, Pricing & Support   | [Open File](Week%203/Day%204%20-%20MCG%2C%20Pricing%20and%20Support.md)     |
+| 🚚 Day 5 | Migration & Well-Architected Framework                  | [Open File](Week%203/Day%205%20-%20Migration%20and%20Well-Architectures.md) |
 
 ---
 
